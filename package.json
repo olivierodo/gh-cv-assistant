@@ -1,0 +1,36 @@
+{
+  "name": "cv-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Olivier Rodomond <rodomond.o@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/olivierodo/cv-compiler.git",
+  "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./index.js",
+    "lint": "standard --fix",
+    "test": "jest && standard",
+    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+  },
+  "dependencies": {
+    "js-yaml": "^3.11.0",
+    "moment": "^2.22.1",
+    "probot": "^6.0.0",
+    "request": "^2.86.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.1",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
