@@ -1,3 +1,5 @@
+._.DS_*
+coverage
 node_modules
 npm-debug.log
 *.pem

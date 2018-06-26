@@ -27,6 +27,10 @@
   "engines": {
     "node": ">= 8.3.0"
   },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
+  },
   "standard": {
     "env": [
       "jest"
