@@ -2,6 +2,8 @@
 
 > A GitHub App built with [probot](https://github.com/probot/probot) that support you to keep your resume up to date.
 
+[![Build Status](https://travis-ci.org/olivierodo/gh-cv-assistant.svg?branch=master)](https://travis-ci.org/olivierodo/gh-cv-assistant)
+
 ## Description
 
 Inspired by the project [Awesome-CV](https://github.com/posquit0/Awesome-CV) from [posquit0](https://github.com/posquit0).
