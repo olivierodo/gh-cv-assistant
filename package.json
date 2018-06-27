@@ -32,6 +32,9 @@
     "collectCoverage": true
   },
   "standard": {
+    "ignore": [
+      "/docs"
+    ],
     "env": [
       "jest"
     ]
