@@ -12,7 +12,7 @@ test('Should start the bot', () => {
 })
 
 test('Should set the utils', () => {
-  const myModule = jest.mock('./lib/utils', () => {
+  jest.mock('./lib/utils', () => {
     return {
       foo: jest.fn(() => 'foo'),
       bar: jest.fn(() => 'bar')
@@ -30,7 +30,7 @@ test('Should set the utils', () => {
 })
 
 test('Should Load the webhooks', () => {
-  const myModule = jest.mock('./lib/webhooks', () => {
+  jest.mock('./lib/webhooks', () => {
     return {
       foo: jest.fn(() => 'foo'),
       bar: jest.fn(() => 'bar'),
