@@ -1,4 +1,4 @@
 title: "Gh-CV-Assistant > Push issue : Upload failure ({{file}})"
 body: |
   The upload of the file to the new releases failed, find below the errors :
-  {{ errors }}
+  {{errors}}
