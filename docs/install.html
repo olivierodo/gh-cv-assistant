@@ -34,6 +34,7 @@
     </nav>
 
     <!-- Masthead -->
+    <!--
     <header class="masthead text-white text-center">
       <div class="overlay"></div>
       <div class="container">
@@ -54,38 +55,58 @@
         </div>
       </div>
     </header>
+    -->
 
     <!-- Icons Grid -->
     <section class="features-icons bg-light text-center" >
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h2>A Simple Pipeline to release your resume</h2>
+            <h2>Thank you for installing the gh-cv-assistant</h2>
+            <p>Since the Github App is installed on your repository let's ensure that you have everything setup to empower your resume</p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
                 <i class="icon-screen-desktop m-auto text-primary"></i>
               </div>
-              <h3>1. Update your resume <sup>(.tex)</sup></h3>
+              <h3>1. The github app can't be install on an organisation</h3>
               <p class="lead mb-0">Using version control for your resume is the best way to keep track.</p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-12">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-screen-desktop m-auto text-primary"></i>
+              </div>
+              <h3>2. Ensure that you repository is public</h3>
+              <p class="lead mb-0">Using version control for your resume is the best way to keep track.</p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-screen-desktop m-auto text-primary"></i>
+              </div>
+              <h3>3. Create the config file .github/cv-assistant.yml</h3>
+              <p class="lead mb-0">Using version control for your resume is the best way to keep track.</p>
+            </div>
+          </div>
+          <div class="col-lg-12">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
                 <i class="icon-social-github m-auto text-primary"></i>
               </div>
-              <h3>2. Run the pipeline</h3>
+              <h3>4. Master branch is the source of truth</h3>
               <p class="lead mb-0">Each change triggers a new build, like every good software you need to create a new version!</p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <div class="features-icons-item mx-auto mb-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
                 <i class="icon-doc m-auto text-primary"></i>
               </div>
-              <h3>3. Release the resume <sup>(.pdf)</sup></h3>
+              <h3>5. Release creation</h3>
               <p class="lead mb-0">Hosted on GitHub the different versions of your resume are accessible will be everywhere!</p>
             </div>
           </div>
@@ -93,63 +114,6 @@
       </div>
     </section>
 
-    <!-- Image Showcases -->
-    <section class="showcase">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters">
-
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style=" border: 1px solid black; border-right: 0px;  background-image: url('img/bg-showcase-1.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>1. Find a LaTeX Resume Template that fits you</h2>
-            <p class="lead mb-0">
-              A lot of cool resume based on LaTeX are available on on github, you just need to <strong>fork</strong> one of them :
-              <ul>
-                <li><a href="https://github.com/posquit0/Awesome-CV" target="_blank">Awesome-CV</a> : the most popular</li>
-                <li>My simplify  personal version of the <a href="https://github.com/olivier/Awesome-CV" target="_blank">Awesome-CV</a></li>
-                <li><a href="https://github.com/search?l=TeX&q=cv&type=Repositories" target="_blank">List available on github</a></li>
-              </ul>
-            </p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-          <div class="col-lg-6 my-auto showcase-text">
-            <h2>2. Intall the CV assistant as an app to your repository</h2>
-            <p class="lead mb-0">
-              Click on the link below to install the bot :  <br /><br />
-              <a class="btn  btn-large btn-primary btn-block" ga-on="click" ga-event-category="App Install"  href="https://github.com/apps/gh-cv-assistant/installations/new" target="_blank"> + Add to GitHub</a>
-            </p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>3. Customize your configuration</h2>
-            <p class="lead mb-0">
-              Create the file <code>.github/cv-assistant.yml</code> on your repository with the following content :
-              <hr />
-              <pre><code>
-#.github/cv-assistant.yml
-files :
-  - resume.tex # file to generate 
-              </code></pre>
-              <hr />
-              You can define multiple files if you want to generate different version
-            </p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="border-top :1px solid black; border-right: 1px solid black; background-image: url('img/bg-showcase-4.png');"></div>
-          <div class="col-lg-6 my-auto showcase-text">
-            <h2>4. Push new changes to your Resume</h2>
-            <p class="lead mb-0">
-              Everytime you will push a new change to the master branch, the bot will release a new version of your resume with the pdf attached to it.
-              Your resume will be also accessible from the tag <code>latest</code>, then you can share the url : {YOUR_REPO}/releases/download/latest/resume.pdf
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Call to Action -->
     <section class="call-to-action text-white text-center">
@@ -157,13 +121,13 @@ files :
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h2 class="mb-4">Ready to track your resume changes ?</h2>
+            <h2 class="mb-4">Any issues ?<br />Share the feedbacks with us</h2>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form>
               <div class="form-row">
                 <div class="col-12">
-                  <a class="btn  btn-large btn-primary btn-block" ga-on="click" ga-event-category="App Install"  href="https://github.com/apps/gh-cv-assistant/installations/new" target="_blank"> + Add to GitHub</a>
+                  <a class="btn  btn-large btn-primary btn-block" ga-on="click" ga-event-category="Create an issue"  href="https://github.com/olivierodo/gh-cv-assistant/issues/new" target="_blank">Open an issue</a>
                 </div>
               </div>
             </form>
