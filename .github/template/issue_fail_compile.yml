@@ -1,0 +1,5 @@
+title: "Gh-CV-Assistant > Push issue : Compilation failure ({{file}})"
+body: |
+  The compilation of the file {{file}} failed, find the error below : 
+  {{ error }}
+

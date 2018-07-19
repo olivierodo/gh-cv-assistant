@@ -1,2 +1,4 @@
-title: "CV-assistant installation issue : empty repository"
-body: Check the specs on the rotary girder.
+title: "Gh-CV-Assistant > Push issue : Upload failure ({{file}})"
+body: |
+  The upload of the file to the new releases failed, find below the errors :
+  {{ errors }}

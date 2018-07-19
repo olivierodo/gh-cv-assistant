@@ -1,2 +1,5 @@
-title: CV-assistant installation issue
-body: Check the specs on the rotary girder.
+title: 'Gh-CV-Assistant > Installation Issue : Multiple repository'
+body: |
+  Gh-CV-Assistant can't be installed on multiple repositories at the same time.
+  Since the bot supposed to manage your resume, please select only the target repositries one by one.
+

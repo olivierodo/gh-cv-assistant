@@ -1,5 +1,6 @@
-title: "CV-assistant installation issue : private repositories"
+title: "Gh-CV-Assistant > Installation issue : Private repositories"
 body: |
-  Check the specs on the rotary girder.
-  Another line
+  Please turn your repository as public.
+  The bot is using the API from [latexonline.cc](https://latexonline.cc) to generate the .pdf.
+  Latexonline needs to have access to your repository.
 

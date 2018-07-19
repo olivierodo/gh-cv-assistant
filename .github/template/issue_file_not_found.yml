@@ -1,0 +1,5 @@
+title: "Gh-CV-Assistant > Push issue : File not found ({{files}})"
+body: |
+  One or some files referenced on the config file (.github/cv-assistant.yml) are not found in your repository
+  Please ensure that the files : {{ files }} exist in your repository
+

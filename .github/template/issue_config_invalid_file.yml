@@ -1,0 +1,6 @@
+title: "Gh-CV-Assistant > Push issue : Invalid file reference"
+body: |
+  One or some files referenced on the config file (.github/cv-assistant.yml) are not supported
+  Please check your .github/cv-assistant.yml, the referenced files need to be latex type (.tex)
+  See [Example](https://github.com/olivierodo/Awesome-CV/blob/master/.github/cv-assistant.yml)
+
