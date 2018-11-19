@@ -2,7 +2,7 @@
   "name": "cv-compiler",
   "version": "1.0.0",
   "description": "",
-  "author": "Olivier Rodomond <rodomond.o@gmail.com>",
+  "author": "Olivier Rodomond <hi@olivierodo.me>",
   "license": "ISC",
   "repository": "https://github.com/olivierodo/cv-compiler.git",
   "scripts": {
