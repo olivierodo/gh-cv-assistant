@@ -1,4 +1,4 @@
-# Github-CV-Assistant
+# Github Awesome CV Action
 
 > A GitHub App built with [probot](https://github.com/probot/probot) that support you to keep your resume up to date.
 
