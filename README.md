@@ -1,5 +1,6 @@
 # PLEASE NOTE, THIS PROJECT IS NO LONGER BEING MAINTAINED
 
+Refer to the version using the GITHUB ACTION 🚀 : https://github.com/olivierodo/Awesome-CV-action
 ---
 
 # Github-CV-Assistant
