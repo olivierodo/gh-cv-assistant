@@ -1,3 +1,7 @@
+# PLEASE NOTE, THIS PROJECT IS NO LONGER BEING MAINTAINED
+
+---
+
 # Github-CV-Assistant
 
 > A GitHub App built with [probot](https://github.com/probot/probot) that support you to keep your resume up to date.
